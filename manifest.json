@@ -1,0 +1,16 @@
+{
+  "name": "BBetter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "BBetter GameNet extensions",
+
+  "content_scripts": [
+    {
+      "matches": ["https://forum.gamenet.ru/editpost.php*"],
+      "css": ["widereality.css"],
+      "js": ["jquery.js", "runner.js"]
+    }
+  ],
+  
+  "icons": { "128": "GameNet.png"}
+}
